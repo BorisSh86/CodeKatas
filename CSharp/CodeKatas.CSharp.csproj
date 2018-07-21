@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Disposable\DisposableEx.cs" />
     <Compile Include="Factorial\FactorialEx.cs" />
     <Compile Include="Factorial\FactorialTests.cs" />
     <Compile Include="Fibonacci\FibonacciEx.cs" />

@@ -21,14 +21,28 @@ namespace CodeKatas.CSharp.Factorial
 		/// <returns></returns>
 		public static int FactorialFor(int n)
 		{
-			if (n == 0)
-				return 1;
-
 			int factorial = 1;
 
 			for (int i = 1; i <= n; i++)
 			{
 				factorial *= i;
+			}
+
+			return factorial;
+		}
+
+		/// <summary>
+		/// Factorial with while.
+		/// </summary>
+		/// <param name="n">Number.</param>
+		/// <returns></returns>
+		public static int FactorialWhile(int n)
+		{
+			int factorial = 1;
+
+			while (n > 0)
+			{
+				factorial *= n--;
 			}
 
 			return factorial;

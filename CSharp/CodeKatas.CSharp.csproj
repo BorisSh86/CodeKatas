@@ -53,6 +53,7 @@
     <Compile Include="Fibonacci\FibonacciEx.cs" />
     <Compile Include="Fibonacci\FibonacciTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\SignletonEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

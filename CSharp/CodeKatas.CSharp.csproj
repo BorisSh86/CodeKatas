@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayRotation\ArrayRotationEx.cs" />
+    <Compile Include="ArrayRotation\ArrayRotationTests.cs" />
     <Compile Include="Disposable\DisposableEx.cs" />
     <Compile Include="Factorial\FactorialEx.cs" />
     <Compile Include="Factorial\FactorialTests.cs" />
@@ -58,6 +60,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

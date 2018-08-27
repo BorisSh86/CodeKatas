@@ -5,7 +5,7 @@ namespace CodeKatas.CSharp.Singleton
 	/// <summary>
 	/// Singleton with lazy implementation.
 	/// </summary>
-	public class SignletonLazy
+	public sealed class SignletonLazy
 	{
 		private static readonly Lazy<SignletonLazy> _instance = new Lazy<SignletonLazy>(() => new SignletonLazy());
 
@@ -19,7 +19,7 @@ namespace CodeKatas.CSharp.Singleton
 	/// <summary>
 	/// Singleton with double check locking implementation.
 	/// </summary>
-	public class SingletonDoubleCheckLocking
+	public sealed class SingletonDoubleCheckLocking
 	{
 		private static volatile SingletonDoubleCheckLocking _instance;
 
@@ -52,7 +52,7 @@ namespace CodeKatas.CSharp.Singleton
 	/// <summary>
 	/// Singleton with static implementations.
 	/// </summary>
-	public class SingletonStatic
+	public sealed class SingletonStatic
 	{
 		private static readonly SingletonStatic _instance = new SingletonStatic();
 
